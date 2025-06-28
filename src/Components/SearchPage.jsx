@@ -27,7 +27,7 @@ const SearchPage = () => {
         <div id='searchModal' className='fixed top-0 left-0 transition w-full h-full bg-[rgba(0,0,0,0.4)]'>
        <div className='bg-[#fefefe] w-full'>
         <div className='flex items-center justify-between h-28 px-10'>
-        <img className='h-12' src="https://res.cloudinary.com/dfxk2ofkn/image/upload/v1750931875/shera_masla_3_vt8w2n.png" alt="" />
+        <img className='h-12' src="https://res.cloudinary.com/dfxk2ofkn/image/upload/v1751105686/shera_masla_1_ncvxse.png" alt="" />
             <form action="" className='relative'>
                 <input className='border border-black focus:outline-none bg-white w-80 rounded-lg py-2 ps-2' type="search" name="search" id="search" /> 
                 <span className='absolute right-1 bg-white top-1/4 cursor-pointer ' onClick={()=>setSearchModal(false)}><SearchIcon /></span>
