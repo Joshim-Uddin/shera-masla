@@ -32,9 +32,9 @@ console.log(searchModal)
             
             <nav className='flex justify-between items-center h-20 wrapper'>
                 <img className='h-16' src="https://res.cloudinary.com/dfxk2ofkn/image/upload/v1750931875/shera_masla_3_vt8w2n.png" alt="" />
-                <div onClick={()=>setSearchModal(true)}>
+                <div id='searchDiv' className='block cursor-pointer' onClick={()=>setSearchModal(true)}>
                     <OrangeTooltip title="Search">
-                <SearchIcon  className='text-[var(--primary)] cursor-pointer' />
+                <SearchIcon id="search" className='text-[var(--primary)]' />
                 </OrangeTooltip>
                 </div>
                 <ul className='flex justify-between items-center gap-4'>
